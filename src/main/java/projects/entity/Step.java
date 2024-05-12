@@ -49,4 +49,12 @@ public class Step {
   public String toString() {
     return "ID=" + stepId + ", stepText=" + stepText;
   }
+
+  public void setDescription(String string) {
+    
+  }
+
+  public void setId(int int1) {
+    
+  }
 }
