@@ -6,7 +6,6 @@ package projects.entity;
 import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * @author Promineo
@@ -115,24 +114,4 @@ public class Project {
     
     return result;
   }
-
- public void setMaterials(List<Material> materials) {
-   this.materials = materials;    
- }
-
- public void setSteps(List<Step> steps) {
-   this.steps = steps;    
- }
-
- public void setCategories(List<Category> categories) {
-   this.categories = categories;    
-   
-  
 }
-
-public void setName(String string) {
-  
-}
-    }
-
-  
