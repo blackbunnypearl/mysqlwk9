@@ -133,10 +133,6 @@ public class Project {
 public void setName(String string) {
   
 }
-
-public void setId(int int1) {
-  
-}
     }
 
   
