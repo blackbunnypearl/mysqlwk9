@@ -22,7 +22,7 @@ public class DbConnection {
       return conn;
     } catch (SQLException e) {
       System.out.println("Unable to get connection at " + uri);
-      throw new DbException("Unable to get connection at \" + uri");
+      throw new DbException("Unable to get connection at \" " + uri);
     }
   }
 }

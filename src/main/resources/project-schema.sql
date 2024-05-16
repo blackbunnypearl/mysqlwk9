@@ -11,7 +11,6 @@ CREATE TABLE project (
     actual_hours DECIMAL(7, 2),
     difficulty INT,
     notes TEXT,
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (project_id)
 );
 
